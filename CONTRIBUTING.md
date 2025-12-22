@@ -2,6 +2,17 @@
 
 Thank you for your interest in contributing to RideWire! We welcome contributions from everyone.
 
+## Project Scope and Acceptable Contributions
+
+**RideWire is a business intelligence and automation platform.** All contributions must be relevant to:
+- Business analytics and dashboards
+- Strategic planning and execution frameworks
+- Market analysis and competitive intelligence
+- Funding and revenue optimization
+- Team collaboration and workflow automation
+
+**Out of Scope:** Military, defense, conflict management, war preparedness, crisis response, or any non-business-related frameworks are not accepted.
+
 ## How to Contribute
 
 1. Fork the repository

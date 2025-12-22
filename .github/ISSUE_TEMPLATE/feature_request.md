@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+**⚠️ Important: RideWire is a business intelligence platform. Feature requests must relate to business analytics, automation, or strategic planning. Military, defense, conflict, or crisis management features are out of scope.**
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
