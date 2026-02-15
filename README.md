@@ -17,9 +17,9 @@ RideWire provides comprehensive business frameworks, dashboards, and AI-powered 
 ## Quick Start
 
 1. Clone this repository: `git clone https://github.com/STEPHENIESGEM/ridewire.git`
-2. Navigate to notebooks folder
+2. Navigate to the notebooks folder
 3. Open Jupyter notebooks: `jupyter notebook`
-4. Follow along with interactive examples
+4. Follow the interactive examples
 
 ## Contents
 
@@ -38,6 +38,14 @@ RideWire provides comprehensive business frameworks, dashboards, and AI-powered 
 - Integration examples
 
 ## Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package installer)
+- Jupyter Notebook
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -65,9 +73,11 @@ We welcome contributions! See CONTRIBUTING.md for guidelines.
 
 MIT License - See LICENSE file
 
-## Contact
+## Support & Contact
 
+For professional support and inquiries:
+
+- 📧 Email: support@ridewireai.com
 - 🌐 Website: ridewire.tech
-- 📧 Email: ridewire2u@outlook.com
-- 💼 LinkedIn: [profile-link]
-- 🐦 Twitter: [handle]
+- 💬 [GitHub Discussions](https://github.com/STEPHENIESGEM/ridewire/discussions)
+- 🐛 [Report Issues](https://github.com/STEPHENIESGEM/ridewire/issues)
