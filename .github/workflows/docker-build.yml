@@ -1,0 +1,37 @@
+name: Build Docker image (CI)
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [ ci/notebook-ci, main ]
+
+jobs:
+  build-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Build image (no push)
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: false
+          tags: ridewire-dash:ci-${{ github.sha }}
+          load: true
+
+      - name: Save image to tar
+        run: |
+          docker save ridewire-dash:ci-${{ github.sha }} -o ridewire-dash-${{ github.sha }}.tar
+
+      - name: Upload image artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: docker-image-tar
+          path: ridewire-dash-${{ github.sha }}.tar
